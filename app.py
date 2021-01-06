@@ -85,7 +85,8 @@ def profile(username):
     return render_template("profile.html", username=username)
 
 
-if __name__  == "__main__":    # Need to tell app how and where to run our app
+if __name__  == "__main__":   
+    # Need to tell app how and where to run our app
     app.run(host=os.environ.get("IP"),
             port=int(os.environ.get("PORT")),
             debug=True)  # During development we want to see the actual errors
