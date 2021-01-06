@@ -2,4 +2,4 @@
 
 Welcome,
 
-This project was designed for educational purposes
+This project was designed for educational purposes.
